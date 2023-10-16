@@ -1,0 +1,21 @@
+/* Formatting containerRecipeLinks to force divRecipeLinks to adapt to device width */
+.containerRecipeLinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* Formatting divRecipeLinks */
+.divRecipeLinks {
+    width: 100%;
+    text-align: center;
+
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    .divRecipeLinks {
+        width: 48%;
+    }
+}
